@@ -11,7 +11,7 @@ public class OnlineTool extends PluginBase {
 	public String token = "*****";
 	public int group = 1;
 	public String format = "На сервере сейчас: ONLINE/MAX_PLAYERS игроков!";
-    public boolean debug = false;
+        public boolean debug = false;
 	
 	@Override
 	public void onEnable(){
