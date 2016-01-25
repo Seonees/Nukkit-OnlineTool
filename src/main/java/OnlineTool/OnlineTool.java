@@ -17,6 +17,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 
 public class OnlineTool extends PluginBase {
+	this.getServer().getPluginManager().registerEvents(this, this);
     public String token = "*****";
     public int group = 1;
     public String format = "На сервере сейчас: ONLINE/MAX_PLAYERS игроков!";
